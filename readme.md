@@ -175,7 +175,7 @@ Deletes a taxonomy term.
 
 #### client.listMethods( callback )
 
-Gets a list of all avaialble methods.
+Gets a list of all available methods.
 
 * `callback` (`function( error, methods )`): A callback to invoke when the API call is complete.
   * `methods`: An array of methods.
@@ -197,7 +197,7 @@ Invokes a method with the username and password provided by the client.
 * `method`: The method to call.
 * `args` (optional): Arguments to pass to the method.
 * `callback` (`function( error [, data] )`): A callback to invoke when the API call is complete.
-* `data`: Data returned by the method.
+  * `data`: Data returned by the method.
 
 
 
